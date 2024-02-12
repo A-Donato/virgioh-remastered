@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "seed": "node -r dotenv/config ./scripts/seed.js",
-    "update-script": "node -r dotenv/config ./scripts/update-elements.js"
+    "update-script": "node -r dotenv/config ./scripts/update-elements.js",
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@nextui-org/react": "^2.2.9",
