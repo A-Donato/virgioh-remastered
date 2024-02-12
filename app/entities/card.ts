@@ -1,0 +1,23 @@
+export type Card = {
+  id: number;
+  name: string;
+  type: string;
+  frametype: string;
+  description: string;
+  ygoprodeckurl: string;
+  atk: null | number;
+  def: null | number;
+  level: null | number;
+  race: null | string;
+  attribute: null | string;
+  archetype: null | string;
+  scale: null | string;
+  linkval: null | string;
+  linkmarkers: string[];
+  image: null | string;
+  cardmarketprice: null | string;
+  rarity: null | string;
+  copies: number | null;
+  banned: boolean;
+  owners: string[];
+};
